@@ -17,7 +17,8 @@ namespace CharliesHouseWeb.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            List<ClientModel> ListClient =_clienteRepositorio.BuscarTodos();
+            return View(ListClient);
         }
         public IActionResult NewClient()
         {
@@ -31,7 +32,7 @@ namespace CharliesHouseWeb.Controllers
         {
             return View();
         }
-        public IActionResult NewClient(ClientModel clientModel)
+        public IActionResult Novo(ClientModel clientModel)
         {
             _clienteRepositorio.Adicionar(clientModel);
             return RedirectToAction("Index");

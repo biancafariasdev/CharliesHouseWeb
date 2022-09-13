@@ -1,4 +1,4 @@
-﻿@model HomeModel
+﻿@model ClientModel
 @{
     ViewData["Title"] = "Criar Cliente";
 }
@@ -9,18 +9,18 @@
     <h1 class="display-4">Cadastrar Cliente</h1>
    
 </div>
-<form>
+<form asp-controller="Client" asp-action="Novo" method="Post">
     <div class="form-group">
         <label for="Nome">Nome</label>
-        <input type="text" class="form-control" id="ClientName" placeholder="Digite o nome do cliente">
+        <input type="text" asp-for="ClientName" class="form-control" id="ClientName" placeholder="Digite o nome do cliente">
     </div>
     <div class="form-group">
         <label for="email">E-mail</label>
-        <input type="text" class="form-control" id="ClientEmail" placeholder="Digite o e-mail do cliente">
+        <input type="text" asp-for="ClientEmail" class="form-control" id="ClientEmail" placeholder="Digite o e-mail do cliente">
     </div>
     <div class="form-group">
         <label for="Contato">Contato</label>
-        <input type="text" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
+        <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
     </div>
 
     <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
