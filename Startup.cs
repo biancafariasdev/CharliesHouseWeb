@@ -1,4 +1,5 @@
 using CharliesHouseWeb.Data;
+using CharliesHouseWeb.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace CharliesHouseWeb
             services.AddControllersWithViews();
             services.AddEntityFrameworkSqlServer()
                 .AddDbContext<DataContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Database")));
+            services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

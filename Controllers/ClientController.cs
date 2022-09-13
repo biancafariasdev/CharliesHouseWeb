@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CharliesHouseWeb.Models;
+using CharliesHouseWeb.Repositorio;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +10,11 @@ namespace CharliesHouseWeb.Controllers
 {
     public class ClientController : Controller
     {
+        private readonly IClienteRepositorio _clienteRepositorio;
+        public ClientController(IClienteRepositorio clienteRepositorio)
+        {
+            _clienteRepositorio = clienteRepositorio;
+        }
         public IActionResult Index()
         {
             return View();
@@ -24,5 +31,11 @@ namespace CharliesHouseWeb.Controllers
         {
             return View();
         }
+        public IActionResult NewClient(ClientModel clientModel)
+        {
+            _clienteRepositorio.Adicionar(clientModel);
+            return RedirectToAction("Index");
+        }
+
     }
 }
