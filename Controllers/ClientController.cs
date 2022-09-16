@@ -24,19 +24,30 @@ namespace CharliesHouseWeb.Controllers
         {
             return View();
         }
-        public IActionResult EditClient()
+        public IActionResult EditClient(int id)
         {
-            return View();
+            ClientModel client =_clienteRepositorio.ListarPorId(id);
+            return View(client);
         }
-        public IActionResult DeleteClientConfirm()
+        public IActionResult DeleteClientConfirm(int id)
         {
-            return View();
+            ClientModel client = _clienteRepositorio.ListarPorId(id);
+            return View(client);
+        }
+        public IActionResult DeleteClient (int id)
+        {
+            _clienteRepositorio.DeleteClient(id);
+            return RedirectToAction("Index");
         }
         public IActionResult Novo(ClientModel clientModel)
         {
             _clienteRepositorio.Adicionar(clientModel);
             return RedirectToAction("Index");
         }
-
+        public IActionResult Alterar(ClientModel clientModel)
+        {
+            _clienteRepositorio.Atualizar(clientModel);
+            return RedirectToAction("Index");
+        }
     }
 }

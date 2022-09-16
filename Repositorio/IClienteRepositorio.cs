@@ -8,7 +8,11 @@ namespace CharliesHouseWeb.Repositorio
 {
     public interface IClienteRepositorio
     {
+        ClientModel ListarPorId(int id);
         List<ClientModel> BuscarTodos();
         ClientModel Adicionar(ClientModel cliente);
+        ClientModel Atualizar(ClientModel client);
+        bool DeleteClient(int id);
+
     }
 }

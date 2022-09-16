@@ -21,10 +21,38 @@ namespace CharliesHouseWeb.Repositorio
             _dataContext.SaveChanges();
             return client;
         }
-
+        public ClientModel ListarPorId(int id)
+        {
+            return _dataContext.Client.FirstOrDefault(x => x.Id == id);
+        }
         public List<ClientModel> BuscarTodos()
         {
             return _dataContext.Client.ToList();
+        }
+        public ClientModel Atualizar(ClientModel client)
+        {
+            ClientModel clientDB = ListarPorId(client.Id);
+            if (clientDB == null) throw new Exception("Houve um erro na atualização do cliente.");
+
+            clientDB.ClientName = client.ClientName;
+            clientDB.ClientEmail = client.ClientEmail;
+            clientDB.ClientContact = client.ClientContact;
+
+            _dataContext.Update(clientDB);
+            _dataContext.SaveChanges();
+
+            return clientDB;
+        }
+        public bool DeleteClient(int id)
+        {
+            ClientModel clientDB = ListarPorId(id);
+            if (clientDB == null) throw new Exception("Houve um erro ao deletar o cliente.");
+
+            _dataContext.Client.Remove(clientDB);
+            _dataContext.SaveChanges();
+
+            return true;
+
         }
     }
 }
