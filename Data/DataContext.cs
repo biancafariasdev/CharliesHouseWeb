@@ -15,5 +15,6 @@ namespace CharliesHouseWeb.Data
         }
 
         public DbSet<ClientModel> Client { get; set; }
+        public DbSet<UserModel> Users { get; set; }
     }
 }
