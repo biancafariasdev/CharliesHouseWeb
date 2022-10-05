@@ -4,7 +4,12 @@
 // Write your JavaScript code.
 
 $(document).ready(function () {
-    $('#table-client').DataTable({
+    GetDataTable('#table-client');
+    GetDataTable('#table-user');
+});
+
+function GetDataTable(id) {
+    $(id).DataTable({
         "ordering": true,
         "paging": true,
         "searching": true,
@@ -31,7 +36,8 @@ $(document).ready(function () {
                 "sSortDescending": ": Ordenar colunas de forma descendente"
             }
         }
-    });});
+    });
+}
 
 $('.close-alert').click(function(){
     $('.alert').hide('hide');
