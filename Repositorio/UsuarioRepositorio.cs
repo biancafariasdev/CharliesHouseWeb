@@ -1,0 +1,60 @@
+﻿using CharliesHouseWeb.Data;
+using CharliesHouseWeb.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace CharliesHouseWeb.Repositorio
+{
+    public class UsuarioRepositorio : IUsuarioRepositorio
+    {
+        private readonly DataContext _dataContext;
+        public UsuarioRepositorio(DataContext dataContext)
+        {
+            _dataContext = dataContext;
+        }
+        
+        public UserModel Adicionar(UserModel usuario)
+        {
+            usuario.DataCadastro = DateTime.Now;
+            _dataContext.Users.Add(usuario);
+            _dataContext.SaveChanges();
+            return usuario;
+        }
+        public UserModel ListarPorId(int id)
+        {
+            return _dataContext.Users.FirstOrDefault(x => x.Id == id);
+        }
+        public List<UserModel> BuscarTodos()
+        {
+            return _dataContext.Users.ToList();
+        }
+        public UserModel Atualizar(UserModel usuario)
+        {
+            UserModel usuarioDB = ListarPorId(usuario.Id);
+            if (usuarioDB == null) throw new Exception("Houve um erro na atualização do usuário.");
+
+            usuarioDB.Nome = usuario.Nome;
+            usuarioDB.Login = usuario.Login;
+            usuarioDB.Email = usuario.Email;
+            usuarioDB.DataAtualizacao = DateTime.Now;
+
+            _dataContext.Update(usuarioDB);
+            _dataContext.SaveChanges();
+
+            return usuarioDB;
+        }
+        public bool DeleteClient(int id)
+        {
+            UserModel usuarioDB = ListarPorId(id);
+            if (usuarioDB == null) throw new Exception("Houve um erro ao deletar o usuário.");
+
+            _dataContext.Users.Remove(usuarioDB);
+            _dataContext.SaveChanges();
+
+            return true;
+
+        }
+    }
+}
