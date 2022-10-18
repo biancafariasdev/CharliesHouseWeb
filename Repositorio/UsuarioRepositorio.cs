@@ -45,7 +45,7 @@ namespace CharliesHouseWeb.Repositorio
 
             return usuarioDB;
         }
-        public bool DeleteClient(int id)
+        public bool DeleteUser(int id)
         {
             UserModel usuarioDB = ListarPorId(id);
             if (usuarioDB == null) throw new Exception("Houve um erro ao deletar o usuário.");

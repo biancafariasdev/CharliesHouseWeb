@@ -12,7 +12,7 @@ namespace CharliesHouseWeb.Repositorio
         List<UserModel> BuscarTodos();
         UserModel Adicionar(UserModel user);
         UserModel Atualizar(UserModel user);
-        bool DeleteClient(int id);
+        bool DeleteUser(int id);
 
     }
 }
