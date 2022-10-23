@@ -353,7 +353,6 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\bin\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.csproj.AssemblyReference.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.AssemblyInfoInputs.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.AssemblyInfo.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.csproj.CoreCompileInputs.cache
@@ -373,8 +372,10 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Client\NewClient.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutOff.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\DeleteUserConfirm.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\EditUser.cshtml.g.cs
@@ -389,5 +390,3 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.dll
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.pdb
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.genruntimeconfig.cache
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutOff.cshtml.g.cs

@@ -57,5 +57,10 @@ namespace CharliesHouseWeb.Repositorio
             return true;
 
         }
+
+        public UserModel BuscarPorLogin(string login)
+        {
+            return _dataContext.Users.FirstOrDefault(x => x.Login.ToUpper() == login.ToUpper());
+        }
     }
 }

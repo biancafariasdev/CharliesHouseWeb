@@ -8,6 +8,7 @@ namespace CharliesHouseWeb.Repositorio
 {
     public interface IUsuarioRepositorio
     {
+        UserModel BuscarPorLogin(string login);
         UserModel ListarPorId(int id);
         List<UserModel> BuscarTodos();
         UserModel Adicionar(UserModel user);
