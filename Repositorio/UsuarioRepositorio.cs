@@ -38,6 +38,7 @@ namespace CharliesHouseWeb.Repositorio
             usuarioDB.Nome = usuario.Nome;
             usuarioDB.Login = usuario.Login;
             usuarioDB.Email = usuario.Email;
+            usuarioDB.Perfil = usuario.Perfil;
             usuarioDB.DataAtualizacao = DateTime.Now;
 
             _dataContext.Update(usuarioDB);

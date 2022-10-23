@@ -31,7 +31,7 @@ namespace CharliesHouseWeb.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    _usuarioRepositorio.Adicionar(usuario);
+                    usuario = _usuarioRepositorio.Adicionar(usuario);
                     TempData["MensagemSucesso"] = "Usuário cadastrado com sucesso";
                     return RedirectToAction("Index");
                 }
@@ -97,7 +97,7 @@ namespace CharliesHouseWeb.Controllers
                         Email = userSemSenhaModel.Email,
                         Perfil = userSemSenhaModel.Perfil
                     };
-                    usuario=_usuarioRepositorio.Atualizar(usuario);
+                    usuario =_usuarioRepositorio.Atualizar(usuario);
                     TempData["MensagemSucesso"] = "Usuário atualizado com sucesso";
                     return RedirectToAction("Index");
                 }
