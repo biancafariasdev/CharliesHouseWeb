@@ -373,6 +373,7 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutOff.cshtml.g.cs
