@@ -1,4 +1,5 @@
-﻿using CharliesHouseWeb.Models;
+﻿using CharliesHouseWeb.Filters;
+using CharliesHouseWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace CharliesHouseWeb.Controllers
 {
+    [PagUserLogado]
     public class HomeController : Controller
     {
         

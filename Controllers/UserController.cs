@@ -1,4 +1,5 @@
-﻿using CharliesHouseWeb.Models;
+﻿using CharliesHouseWeb.Filters;
+using CharliesHouseWeb.Models;
 using CharliesHouseWeb.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace CharliesHouseWeb.Controllers
 {
+    [PagRestritaAdmin]
+
     public class UserController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
