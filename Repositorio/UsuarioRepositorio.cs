@@ -18,6 +18,7 @@ namespace CharliesHouseWeb.Repositorio
         public UserModel Adicionar(UserModel usuario)
         {
             usuario.DataCadastro = DateTime.Now;
+            usuario.SetSenhaHash();
             _dataContext.Users.Add(usuario);
             _dataContext.SaveChanges();
             return usuario;
