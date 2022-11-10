@@ -9,7 +9,7 @@ namespace CharliesHouseWeb.Controllers
     public class LoginController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
-        private readonly ISessao _sessao; 
+        private readonly ISessao _sessao;
 
         public LoginController(IUsuarioRepositorio usuarioRepositorio,
             ISessao sessao)
@@ -24,6 +24,10 @@ namespace CharliesHouseWeb.Controllers
             return View();
         }
 
+        public IActionResult RedefinirSenha()
+        {
+            return View();
+        }
         public IActionResult Sair()
         {
             _sessao.RemoverSessaoUsuario();
@@ -61,5 +65,37 @@ namespace CharliesHouseWeb.Controllers
                 return RedirectToAction("Index");
             }
         }
+
+        [HttpPost]
+        public IActionResult EnviarLinkRefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+
+                    UserModel usuario = _usuarioRepositorio.BuscarPorEmailLogin(redefinirSenhaModel.Email, redefinirSenhaModel.Login);
+
+                    if (usuario != null)
+                    {
+                        string novaSenha = usuario.GerarNovaSenha();
+
+                        TempData["MensagemSucesso"] = $"Enviamos para seu e-mail cadastrado uma nova senha.";
+                        return RedirectToAction("Index","Login");
+
+                    }
+
+                    TempData["MensagemErro"] = $"Não conseguimos redefinir sua senha. Por favor, verifique os dados informados.";
+
+                }
+                return View("Index");
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Ops! Não conseguimos redefinir sua senha. Tente novamente. Detalhes do erro: {erro.Message}";
+                return RedirectToAction("Index");
+            }
+        }
     }
 }
+

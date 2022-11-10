@@ -393,3 +393,4 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.genruntimeconfig.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.csproj.AssemblyReference.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Restrito\Index.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\RedefinirSenha.cshtml.g.cs
