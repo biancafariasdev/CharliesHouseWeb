@@ -36,6 +36,7 @@ namespace CharliesHouseWeb
             services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
             services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddScoped<ISessao, Sessao>();
+            services.AddScoped<IEmail, Email>();
 
             services.AddSession(o => {
                 o.Cookie.HttpOnly = true;

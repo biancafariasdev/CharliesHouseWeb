@@ -10,12 +10,14 @@ namespace CharliesHouseWeb.Controllers
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
         private readonly ISessao _sessao;
+        private readonly IEmail _email;
 
-        public LoginController(IUsuarioRepositorio usuarioRepositorio,
-            ISessao sessao)
+        public LoginController(IUsuarioRepositorio usuarioRepositorio,ISessao sessao, IEmail email)
         {
             _usuarioRepositorio = usuarioRepositorio;
             _sessao = sessao;
+            _email = email;
+           
         }
         public IActionResult Index()
         {
@@ -79,14 +81,21 @@ namespace CharliesHouseWeb.Controllers
                     if (usuario != null)
                     {
                         string novaSenha = usuario.GerarNovaSenha();
+                        string mensagem = $"Sua nova senha é: {novaSenha}";
+                        bool emailEnviado = _email.Enviar(usuario.Email, "Charlies House - Nova Senha", mensagem);
 
-                        TempData["MensagemSucesso"] = $"Enviamos para seu e-mail cadastrado uma nova senha.";
-                        return RedirectToAction("Index","Login");
+                        if (emailEnviado)
+                        {
+                            _usuarioRepositorio.Atualizar(usuario);
+                            TempData["MensagemSucesso"] = $"Enviamos para seu e-mail cadastrado uma nova senha.";
+                        }
+                        else
+                        {
+                            TempData["MensagemErro"] = $"Não conseguimos enviar o e-mail. Por favor, verifique os dados informados.";
+                        }
 
+                        return RedirectToAction("Index", "Login");
                     }
-
-                    TempData["MensagemErro"] = $"Não conseguimos redefinir sua senha. Por favor, verifique os dados informados.";
-
                 }
                 return View("Index");
             }
