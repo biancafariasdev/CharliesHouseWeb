@@ -14,7 +14,7 @@ namespace CharliesHouseWeb.Repositorio
         {
             _dataContext = dataContext;
         }
-        
+
         public UserModel Adicionar(UserModel usuario)
         {
             usuario.DataCadastro = DateTime.Now;
@@ -46,6 +46,23 @@ namespace CharliesHouseWeb.Repositorio
             _dataContext.SaveChanges();
 
             return usuarioDB;
+        }
+        public UserModel AlterarSenha(AlterarSenhaModel alterarSenhaModel)
+        {
+            UserModel usuariodb = ListarPorId(alterarSenhaModel.Id);
+            if (usuariodb == null) throw new Exception("Houve um erro na atualização da senha, usuário não encontrado");
+
+            if (!usuariodb.SenhaValida(alterarSenhaModel.SenhaAtual)) throw new Exception("Senha atual não confere.");
+
+            if (usuariodb.SenhaValida(alterarSenhaModel.NovaSenha)) throw new Exception("Nova senha deve ser diferente da senha atual.");
+
+            usuariodb.SetNovaSenha(alterarSenhaModel.NovaSenha);
+            usuariodb.DataAtualizacao = DateTime.Now;
+
+            _dataContext.Users.Update(usuariodb);
+            _dataContext.SaveChanges();
+
+            return usuariodb;
         }
         public bool DeleteUser(int id)
         {

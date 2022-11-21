@@ -14,6 +14,7 @@ namespace CharliesHouseWeb.Repositorio
         List<UserModel> BuscarTodos();
         UserModel Adicionar(UserModel user);
         UserModel Atualizar(UserModel user);
+        UserModel AlterarSenha(AlterarSenhaModel alterarSenhaModel);
         bool DeleteUser(int id);
 
     }
