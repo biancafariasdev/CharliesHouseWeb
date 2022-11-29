@@ -17,6 +17,8 @@ namespace CharliesHouseWeb.Models
         [Phone(ErrorMessage = "O e-mail informado não é válido.")]
         [Required(ErrorMessage ="Digite o contato do cliente")]
         public string ClientContact { get; set; }
+        public int? UserId { get; set; }
+        public UserModel Usuario { get; set; }
 
     }
 }

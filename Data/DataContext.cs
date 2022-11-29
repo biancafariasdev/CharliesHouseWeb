@@ -1,4 +1,5 @@
-﻿using CharliesHouseWeb.Models;
+﻿using CharliesHouseWeb.Data.Map;
+using CharliesHouseWeb.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,5 +17,11 @@ namespace CharliesHouseWeb.Data
 
         public DbSet<ClientModel> Client { get; set; }
         public DbSet<UserModel> Users { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ClienteMap());
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

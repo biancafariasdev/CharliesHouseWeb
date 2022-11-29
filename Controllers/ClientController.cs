@@ -1,4 +1,5 @@
 ﻿using CharliesHouseWeb.Filters;
+using CharliesHouseWeb.Helper;
 using CharliesHouseWeb.Models;
 using CharliesHouseWeb.Repositorio;
 using Microsoft.AspNetCore.Mvc;
@@ -14,13 +15,16 @@ namespace CharliesHouseWeb.Controllers
     public class ClientController : Controller
     {
         private readonly IClienteRepositorio _clienteRepositorio;
-        public ClientController(IClienteRepositorio clienteRepositorio)
+        private readonly ISessao _sessao;
+        public ClientController(IClienteRepositorio clienteRepositorio, ISessao sessao)
         {
             _clienteRepositorio = clienteRepositorio;
+            _sessao = sessao;
         }
         public IActionResult Index()
         {
-            List<ClientModel> ListClient =_clienteRepositorio.BuscarTodos();
+           UserModel usuarioLogado =  _sessao.BuscarSessaoUsuario();
+            List<ClientModel> ListClient =_clienteRepositorio.BuscarTodos(usuarioLogado.Id);
             return View(ListClient);
         }
         public IActionResult NewClient()
@@ -71,6 +75,8 @@ namespace CharliesHouseWeb.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    UserModel usuarioLogado = _sessao.BuscarSessaoUsuario();
+                    clientModel.UserId = usuarioLogado.Id;
                     _clienteRepositorio.Adicionar(clientModel);
                     TempData["MensagemSucesso"] = "Cliente cadastrado com sucesso";
                     return RedirectToAction("Index");
@@ -90,6 +96,8 @@ namespace CharliesHouseWeb.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    UserModel usuarioLogado = _sessao.BuscarSessaoUsuario();
+                    clientModel.UserId = usuarioLogado.Id;
                     _clienteRepositorio.Atualizar(clientModel);
                     TempData["MensagemSucesso"] = "Cliente atualizado com sucesso";
                     return RedirectToAction("Index");
