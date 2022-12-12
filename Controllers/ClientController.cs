@@ -76,7 +76,7 @@ namespace CharliesHouseWeb.Controllers
                 if (ModelState.IsValid)
                 {
                     UserModel usuarioLogado = _sessao.BuscarSessaoUsuario();
-                    clientModel.UserId = usuarioLogado.Id;
+                    clientModel.UsuarioId = usuarioLogado.Id;
                     _clienteRepositorio.Adicionar(clientModel);
                     TempData["MensagemSucesso"] = "Cliente cadastrado com sucesso";
                     return RedirectToAction("Index");
@@ -97,7 +97,7 @@ namespace CharliesHouseWeb.Controllers
                 if (ModelState.IsValid)
                 {
                     UserModel usuarioLogado = _sessao.BuscarSessaoUsuario();
-                    clientModel.UserId = usuarioLogado.Id;
+                    clientModel.UsuarioId = usuarioLogado.Id;
                     _clienteRepositorio.Atualizar(clientModel);
                     TempData["MensagemSucesso"] = "Cliente atualizado com sucesso";
                     return RedirectToAction("Index");

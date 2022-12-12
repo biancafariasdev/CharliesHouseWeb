@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CharliesHouseWeb.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221129182718_CriandoVinculoUsuarioComCliente")]
-    partial class CriandoVinculoUsuarioComCliente
+    [Migration("20221212225209_CriandoVinculoUsuarioCliente")]
+    partial class CriandoVinculoUsuarioCliente
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
