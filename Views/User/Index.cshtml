@@ -39,6 +39,7 @@
                 <th scope="col">Login</th>
                 <th scope="col">Email</th>
                 <th scope="col">Perfil</th>
+                <th scope="col">Total</th>
                 <th scope="col">Data de criação</th>
                 <th scope="col"></th>
             </tr>
@@ -54,6 +55,12 @@
                         <td>@usuario.Login</td>
                         <td>@usuario.Email</td>
                         <td>@(usuario.Perfil == CharliesHouseWeb.Enums.PerfilEnum.Admin ? "Administrador" : "Padrão")</td>
+                        <td>
+                            <a href="javascript:" class="btn btn-success btn-sm btn-total-clientes">
+                                @(usuario.Clientes != null && usuario.Clientes.Any() ? usuario.Clientes.Count() : 0)
+                            </a>
+
+                        </td>
                         <td>@usuario.DataCadastro</td>
                         <td>
                             <div class="btn-group" role="group">

@@ -1,5 +1,6 @@
 ﻿using CharliesHouseWeb.Data;
 using CharliesHouseWeb.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,9 @@ namespace CharliesHouseWeb.Repositorio
         }
         public List<UserModel> BuscarTodos()
         {
-            return _dataContext.Users.ToList();
+            return _dataContext.Users
+            .Include(x => x.Clientes)
+            .ToList();
         }
         public UserModel Atualizar(UserModel usuario)
         {
