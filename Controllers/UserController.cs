@@ -14,9 +14,11 @@ namespace CharliesHouseWeb.Controllers
     public class UserController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
-        public UserController(IUsuarioRepositorio usuarioRepositorio)
+        private readonly IClienteRepositorio _clienteRepositorio;
+        public UserController(IUsuarioRepositorio usuarioRepositorio, IClienteRepositorio clienteRepositorio)
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _clienteRepositorio = clienteRepositorio;
         }
         public IActionResult Index()
         {
@@ -27,6 +29,14 @@ namespace CharliesHouseWeb.Controllers
         {
             return View();
         }
+
+
+        public IActionResult ListarClientePorUsuarioId(int id)
+        {
+            List<ClientModel> cliente = _clienteRepositorio.BuscarTodos(id);
+            return PartialView("_ClientUser", cliente);
+        }
+
         [HttpPost]
         public IActionResult Novo(UserModel usuario)
         {
@@ -100,7 +110,7 @@ namespace CharliesHouseWeb.Controllers
                         Email = userSemSenhaModel.Email,
                         Perfil = userSemSenhaModel.Perfil
                     };
-                    usuario =_usuarioRepositorio.Atualizar(usuario);
+                    usuario = _usuarioRepositorio.Atualizar(usuario);
                     TempData["MensagemSucesso"] = "Usuário atualizado com sucesso";
                     return RedirectToAction("Index");
                 }

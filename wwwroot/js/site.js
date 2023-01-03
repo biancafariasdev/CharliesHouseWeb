@@ -6,6 +6,19 @@
 $(document).ready(function () {
     GetDataTable('#table-client');
     GetDataTable('#table-user');
+
+    $('.btn-total-clientes').click(function () {
+        debugger;
+        var usuarioid = $(this).attr('usuario-id');
+        $.ajax({
+            type: 'GET',
+            url: '/User/ListarClientePorUsuarioId/' + usuarioid,
+            success: function (result) {
+                $("listaClienteUsuario").html(result);
+                $("#ClientesModalUsuario").modal();
+            }
+        });
+    });
 });
 
 function GetDataTable(id) {
@@ -39,6 +52,6 @@ function GetDataTable(id) {
     });
 }
 
-$('.close-alert').click(function(){
+$('.close-alert').click(function () {
     $('.alert').hide('hide');
 })

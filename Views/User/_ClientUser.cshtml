@@ -1,0 +1,32 @@
+﻿@using CharliesHouseWeb.Enums
+@model List<ClientModel>
+
+<table id="table-contatos-usuario" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var Cliente in Model)
+            {
+                <tr>
+                    <th scope="row">@Cliente.Id</th>
+                    <td>@Cliente.ClientName</td>
+                    <td>@Cliente.ClientEmail</td>
+                    <td>@Cliente.ClientContact</td>
+                </tr>
+            }
+
+        }
+        else
+        {
+            <tr class="odd"><td valign="top" colspan="4">Nenhum cliente encontrado</td></tr>
+        }
+    </tbody>
+</table>

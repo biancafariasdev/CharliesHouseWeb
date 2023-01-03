@@ -366,6 +366,7 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.TagHelpers.input.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.TagHelpers.output.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.RazorCoreGenerate.cache
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\AlterarSenha\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Client\DeleteClientConfirm.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Client\EditClient.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Client\Index.cshtml.g.cs
@@ -373,6 +374,8 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\RedefinirSenha.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Restrito\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -382,6 +385,7 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\EditUser.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\NewUser.cshtml.g.cs
+C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\User\_ClientUser.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.RazorTargetAssemblyInfo.cache
@@ -392,6 +396,3 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.pdb
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.genruntimeconfig.cache
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.csproj.AssemblyReference.cache
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Restrito\Index.cshtml.g.cs
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\RedefinirSenha.cshtml.g.cs
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\Razor\Views\AlterarSenha\Index.cshtml.g.cs
