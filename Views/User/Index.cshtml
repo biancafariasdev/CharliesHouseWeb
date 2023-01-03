@@ -56,7 +56,7 @@
                         <td>@usuario.Email</td>
                         <td>@(usuario.Perfil == CharliesHouseWeb.Enums.PerfilEnum.Admin ? "Administrador" : "Padrão")</td>
                         <td>
-                            <a href="javascript:" class="btn btn-success btn-sm btn-total-clientes">
+                            <a href="#" class="btn btn-success btn-sm btn-total-clientes">
                                 @(usuario.Clientes != null && usuario.Clientes.Any() ? usuario.Clientes.Count() : 0)
                             </a>
 
@@ -75,5 +75,37 @@
 
         </tbody>
     </table>
+
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Listagem de contatos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table" id="table-client">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Telefone</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Teste chumbado</td>
+                                <td>teste@chumbado.com</td>
+                                <td>11 11111-1111</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 

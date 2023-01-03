@@ -27,7 +27,7 @@ namespace CharliesHouseWeb.Repositorio
         }
         public List<ClientModel> BuscarTodos(int id)
         {
-            return _dataContext.Client.Where(x => x.Id == id).ToList();
+            return _dataContext.Client.Where(x => x.UsuarioId == id).ToList();
         }
         public ClientModel Atualizar(ClientModel client)
         {
