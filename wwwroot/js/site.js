@@ -2,24 +2,24 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-
 $(document).ready(function () {
     GetDataTable('#table-client');
     GetDataTable('#table-user');
 
     $('.btn-total-clientes').click(function () {
-        debugger;
-        var usuarioid = $(this).attr('usuario-id');
+        var usuarioId = $(this).attr('usuario-id');
+
         $.ajax({
             type: 'GET',
-            url: '/User/ListarClientePorUsuarioId/' + usuarioid,
+            url: '/User/ListarClientePorUsuarioId/' + usuarioId,
             success: function (result) {
-                $("listaClienteUsuario").html(result);
-                $("#ClientesModalUsuario").modal();
+                $("#listaClienteUsuario").html(result);
+                $('#ClientesModalUsuario').modal();
+                GetDataTable('#table-contatos-usuario');
             }
         });
     });
-});
+})
 
 function GetDataTable(id) {
     $(id).DataTable({

@@ -56,7 +56,7 @@
                         <td>@usuario.Email</td>
                         <td>@(usuario.Perfil == CharliesHouseWeb.Enums.PerfilEnum.Admin ? "Administrador" : "Padrão")</td>
                         <td>
-                            <a href="#" usuario-id="@usuario.Id" class="btn btn-success btn-sm btn-total-clientes">
+                            <a href="javascript:" usuario-id="@usuario.Id" class="btn btn-success btn-sm btn-total-clientes">
                                 @(usuario.Clientes != null && usuario.Clientes.Any() ? usuario.Clientes.Count() : 0)
                             </a>
 

@@ -395,4 +395,3 @@ C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcorea
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.dll
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.pdb
 C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.genruntimeconfig.cache
-C:\Users\bianc\source\repos\CharliesHouseWeb\CharliesHouseWeb\obj\Debug\netcoreapp3.1\CharliesHouseWeb.csproj.AssemblyReference.cache
