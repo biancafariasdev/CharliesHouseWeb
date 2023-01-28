@@ -38,9 +38,6 @@ namespace CharliesHouseWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.Property<int?>("UsuarioId")
                         .HasColumnType("int");
 
