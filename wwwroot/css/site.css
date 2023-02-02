@@ -59,8 +59,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 0%;
+    /* Margin bottom by footer height */
+    margin-bottom: 0%;
+    background-color: #f19999;
 }
 .footer {
   position: absolute;
