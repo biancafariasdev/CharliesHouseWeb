@@ -108,8 +108,9 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 0%;
-    background-color: #f19999;
+    background-color: white;
 }
+
 .footer {
   position: absolute;
   bottom: 0;

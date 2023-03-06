@@ -1,17 +1,23 @@
 ﻿@model UserModel
 
 <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
     <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
     <a asp-area="" asp-controller="Client" asp-action="Index">Clientes</a>
     @if (Model.Perfil == CharliesHouseWeb.Enums.PerfilEnum.Admin)
     {
-            <a asp-area="" asp-controller="User" asp-action="Index">Usuários</a>
+        <a asp-area="" asp-controller="User" asp-action="Index">Usuários</a>
     }
     <a asp-area="" asp-controller="AlterarSenha" asp-action="Index">Alterar Senha</a>
     <a asp-area="" asp-controller="Login" asp-action="Sair">Sair</a>
 </div>
 
 <div id="main">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776 Menu</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+<div id="Menu" class="divmenu" style="margin-left:89%;margin-top: -5%;">
+    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Olá @Model.Nome </a>
+    <br />
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Sair">Sair</a>
 </div>
