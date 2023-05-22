@@ -22,7 +22,11 @@
       "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "11.0",
+<<<<<<< HEAD
     "platform": "",
+=======
+    "platform": "x64",
+>>>>>>> 46aba67bf821045bbc72b1a974ffa0642ffa8be7
     "allowUnsafe": false,
     "warningsAsErrors": false,
     "optimize": false,
