@@ -6588,11 +6588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bianca\\source\\repos\\biancadcfarias\\CharliesHouseWeb\\CharliesHouseWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\CharliesHouseWeb.csproj",
       "projectName": "CharliesHouseWeb",
-      "projectPath": "C:\\Users\\Bianca\\source\\repos\\biancadcfarias\\CharliesHouseWeb\\CharliesHouseWeb.csproj",
+      "projectPath": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\CharliesHouseWeb.csproj",
       "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bianca\\source\\repos\\biancadcfarias\\CharliesHouseWeb\\obj\\",
+      "outputPath": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6607,7 +6607,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6674,7 +6675,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
