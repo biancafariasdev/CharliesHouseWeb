@@ -1,0 +1,17 @@
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.csproj.AssemblyReference.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.AssemblyInfoInputs.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.AssemblyInfo.cs
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.csproj.CoreCompileInputs.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.RazorAssemblyInfo.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.RazorAssemblyInfo.cs
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\staticwebassets\CharliesHouseWeb.StaticWebAssets.Manifest.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\staticwebassets\CharliesHouseWeb.StaticWebAssets.xml
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\scopedcss\bundle\CharliesHouseWeb.styles.css
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.TagHelpers.input.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.TagHelpers.output.cache
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.dll
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\refint\CharliesHouseWeb.dll
+C:\Users\Bianca\Source\Repos\biancadcfarias\CharliesHouseWeb\obj\Debug\net5.0-windows7.0\CharliesHouseWeb.pdb

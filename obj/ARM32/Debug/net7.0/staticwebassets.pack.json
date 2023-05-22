@@ -1,0 +1,197 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\banhodog.png",
+      "PackagePath": "staticwebassets\\img\\banhodog.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\cat.png",
+      "PackagePath": "staticwebassets\\img\\cat.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\dog2.png",
+      "PackagePath": "staticwebassets\\img\\dog2.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\dogInicial.png",
+      "PackagePath": "staticwebassets\\img\\dogInicial.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\doguinho.jpg",
+      "PackagePath": "staticwebassets\\img\\doguinho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\fundo.png",
+      "PackagePath": "staticwebassets\\img\\fundo.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo_transparente.png",
+      "PackagePath": "staticwebassets\\img\\logo_transparente.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\ARM32\\Debug\\net7.0\\staticwebassets\\msbuild.CharliesHouseWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\ARM32\\Debug\\net7.0\\staticwebassets\\msbuild.build.CharliesHouseWeb.props",
+      "PackagePath": "build\\CharliesHouseWeb.props"
+    },
+    {
+      "Id": "obj\\ARM32\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CharliesHouseWeb.props",
+      "PackagePath": "buildMultiTargeting\\CharliesHouseWeb.props"
+    },
+    {
+      "Id": "obj\\ARM32\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CharliesHouseWeb.props",
+      "PackagePath": "buildTransitive\\CharliesHouseWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
