@@ -3,11 +3,19 @@
 @{
     ViewData["Title"] = "Listagem de usuários";
 }
+<style>
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: larger;
+        background-color: #ddd9ce;
+    }
+</style>
 
 <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="User" asp-action="NewUser">Adicionar novo usuário</a>
+        <a class="btn btn-primary" style="margin-top:10%; margin-bottom: -8%;" role="button" asp-controller="User" asp-action="NewUser">Adicionar novo usuário</a>
     </div>
     <br />
 
@@ -28,13 +36,12 @@
 
     }
 
-
+    <br />
 
     <h1 class="display-4">Listagem de usuários</h1>
     <table class="table" id="table-user">
         <thead>
             <tr>
-                <th scope="col">#</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Login</th>
                 <th scope="col">Email</th>
@@ -50,7 +57,6 @@
                 @foreach (var usuario in Model)
                 {
                     <tr>
-                        <th scope="row">@usuario.Id</th>
                         <td>@usuario.Nome</td>
                         <td>@usuario.Login</td>
                         <td>@usuario.Email</td>

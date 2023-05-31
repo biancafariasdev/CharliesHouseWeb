@@ -13,11 +13,10 @@
 </style>
 
 <div id="bodyGeral">
-<div class="text-center">
-
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Client" asp-action="NewClient">Adicionar novo cliente</a>
+        <a class="btn btn-primary" style="margin-top:10%; margin-bottom: -8%;" role="button" asp-controller="Client" asp-action="NewClient">Adicionar novo cliente</a>
     </div>
+<div class="text-center">    
     <br />
 
     @if (TempData["MensagemSucesso"] != null)
@@ -38,12 +37,11 @@
     }
 
 
-
-    <h1 class="display-4">Listagem de clientes</h1>
+    <br />
+    <h1 class="display-4">Clientes</h1>
         <table class="table table-striped" id="table-client">
         <thead>
             <tr>
-                <th scope="col">#</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Email</th>
                 <th scope="col">Telefone</th>
@@ -56,7 +54,6 @@
                 @foreach (ClientModel client in Model)
                 {
                     <tr>
-                        <th scope="row">@client.Id</th>
                         <td>@client.ClientName</td>
                         <td>@client.ClientEmail</td>
                         <td>@client.ClientContact</td>

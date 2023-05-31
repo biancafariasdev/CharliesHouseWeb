@@ -3,10 +3,18 @@
 @{
     ViewData["Title"] = "Alterar Senha";
 }
+<style>
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: larger;
+        background-color: #ddd9ce;
+    }
+</style>
 
 <div class="text-center">
 
-    <br />
+    <br />    <br />    <br />    <br /><br />
     <h1 class="display-4">Alterar Senha</h1>
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -25,10 +33,11 @@
 
     }
 </div>
+<br />
 <form asp-controller="AlterarSenha" asp-action="Alterar" method="Post">
     <div class="form-group">
         <label for="senhaAtual">Senha Atual</label>
-        <input type="password" asp-for="SenhaAtual" class="form-control" placeholder="Digite a senha atual">
+        <input type="password" asp-for="SenhaAtual" class="form-control" placeholder="Digite a senha atual" style="background-color=#ddd9ce">
         @Html.ValidationMessageFor(x => x.SenhaAtual)
 
     </div>
