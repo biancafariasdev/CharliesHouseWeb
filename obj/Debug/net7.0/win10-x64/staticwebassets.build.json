@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "149Fuay+7YHdBB9JLdYgjK5s3vubo4Z+NGv5ru5H3e8=",
+  "Hash": "3+2HBTli8A/SFK60h0VH0TpMKEENaZFyWS4JUeIt6tM=",
   "Source": "CharliesHouseWeb",
   "BasePath": "_content/CharliesHouseWeb",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\img\\fundo.png"
     },
     {
+      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\imgfundo.png",
+      "SourceId": "CharliesHouseWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "BasePath": "_content/CharliesHouseWeb",
+      "RelativePath": "img/imgfundo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imgfundo.png"
+    },
+    {
       "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
@@ -185,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo_transparente.png"
+    },
+    {
+      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\user.png",
+      "SourceId": "CharliesHouseWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "BasePath": "_content/CharliesHouseWeb",
+      "RelativePath": "img/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\user.png"
     },
     {
       "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\js\\site.js",

@@ -33,12 +33,20 @@
       "PackagePath": "staticwebassets\\img\\fundo.png"
     },
     {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\imgfundo.png",
+      "PackagePath": "staticwebassets\\img\\imgfundo.png"
+    },
+    {
       "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo_transparente.png",
       "PackagePath": "staticwebassets\\img\\logo_transparente.png"
+    },
+    {
+      "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
     },
     {
       "Id": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\js\\site.js",

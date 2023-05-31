@@ -15,9 +15,17 @@
 <div id="main">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 </div>
+<br />
 
-<div id="Menu" class="divmenu" style="margin-left:89%;margin-top: -5%;position:absolute; color:black" >
-    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Olá @Model.Nome </a>
-    <br />
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Sair">Sair</a>
+<div id="Menu" class="divmenu" style="margin-left:89%;margin-top: -5%;position:absolute; color:black">
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+            <img src="img/user.png" class="img-fluid" alt="Charlie's House'" style="margin-top: -1%;margin-left: -180%; width: 25%;" />
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="margin-top: 42%;margin-left: 4%;">@Model.Nome </a>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Sair">Sair</a></li>
+        </ul>
+    </div>
 </div>

@@ -1,17 +1,31 @@
 ﻿@model HomeModel
 @{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 
 <style>
     body {
         overflow-x: hidden;
         overflow-y: hidden;
+        font-size: larger;
     }
 </style>
 
 <img src="img/fundo.png" class="img-fluid" alt="Charlie's House'" style=" margin-top: -8%;margin-left: 12%;height:600%; width:300%" />
 
-<img src="img/cat.png" class="img-fluid" alt="Charlie's House'" style="position:absolute; margin-left:0%; margin-top:-53%;height: 36%;" />
+@*<img src="img/cat.png" class="img-fluid" alt="Charlie's House'" style="position:absolute; margin-left:0%; margin-top:-53%;height: 36%;" />
 <img src="img/banhodog.png" class="img-fluid" alt="Charlie's House'" style="position:absolute; margin-left:15%; margin-top:-41%;height: 40%; width: 31%" />
+*@
+<img src="img/imgfundo.png" class="img-fluid" alt="Charlie's House'" style="position:absolute;margin-top:-41%" />
 
+
+
+<div style="position:absolute;margin-top: -33%;margin-left: 63%">
+    <b>
+        <font style="font-family:Arial, Helvetica, sans-serif;color:white">
+            Seja bem vinda ao sistema de gerenciamento do banho & tosa Charlie's House
+        </font>
+    </b>
+</div>
