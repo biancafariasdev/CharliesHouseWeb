@@ -37,7 +37,7 @@
 <form asp-controller="AlterarSenha" asp-action="Alterar" method="Post">
     <div class="form-group">
         <label for="senhaAtual">Senha Atual</label>
-        <input type="password" asp-for="SenhaAtual" class="form-control" placeholder="Digite a senha atual" style="background-color=#ddd9ce">
+        <input type="password" asp-for="SenhaAtual" class="form-control" placeholder="Digite a senha atual">
         @Html.ValidationMessageFor(x => x.SenhaAtual)
 
     </div>
