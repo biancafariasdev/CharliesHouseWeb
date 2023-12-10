@@ -1,0 +1,28 @@
+# Ignore local changes that are not meant to be committed
+
+# Ignore untracked files by default
+*
+
+# But don't ignore some specific files or directories
+!/.gitignore_global
+!/.gitignore
+
+# Ignore everything in the .vscode directory
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore DLLs and PDBs
+*.dll
+*.pdb
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.pupkg
+project.lock.json
