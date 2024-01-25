@@ -4,28 +4,69 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <style>
     body {
         overflow-x: hidden;
         overflow-y: hidden;
         font-size: larger;
     }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .square {
+        width: 350px;
+        height: 230px;
+        /*background-color: blue;*/
+        margin: 0 10px;
+        opacity: 0; /* Definir a opacidade inicial como 0 */
+        transition: opacity 0.5s, transform 0.5s; /* Adicionar transições para a opacidade e transformação */
+    }
 </style>
 
-<img src="img/fundo.png" class="img-fluid" alt="Charlie's House'" style=" margin-top: -8%;margin-left: 12%;height:600%; width:300%" />
+<div class="container">
+    <div class="square" id="square1" style="margin-top: 115px; text-align: center;">
+        <a href="User/Index">
+            <img src="img/usuarios.jpg" style="width:238px" alt="Usuários">
+        </a>
+        <br /><h2>Usuários</h2>
+    </div>
+    <div class="square" id="square2" style="margin-top: 115px; text-align: center;">
+        <a href="Client/Index">
+            <img src="img/clientes.png" style="width:238px" alt="Clientes">
+        </a>
+        <br /><h2>Clientes</h2>
+    </div>
+    <div class="square" id="square3" style="margin-top: 115px; text-align: center;">
+        <a href="AlterarSenha/Index">
+            <img src="img/alterasenha.png" style="width: 238px; border-radius: 50%;" alt="Alterar senha">
+        </a>
+        <br />
+        <h2>Alterar Senha</h2>
+    </div>
+</div>
 
-@*<img src="img/cat.png" class="img-fluid" alt="Charlie's House'" style="position:absolute; margin-left:0%; margin-top:-53%;height: 36%;" />
-<img src="img/banhodog.png" class="img-fluid" alt="Charlie's House'" style="position:absolute; margin-left:15%; margin-top:-41%;height: 40%; width: 31%" />
-*@
-<img src="img/imgfundo.png" class="img-fluid" alt="Charlie's House'" style="position:absolute;margin-top:-41%" />
-
-
-
-<div style="position:absolute;margin-top: -33%;margin-left: 63%">
+<div style="position: absolute; margin-top: -33%; margin-left: 63%;">
     <b>
-        <font style="font-family:Arial, Helvetica, sans-serif;color:white">
-            Seja bem vinda ao sistema de gerenciamento do banho & tosa Charlie's House
+        <font style="font-family: Arial, Helvetica, sans-serif; color: white;">
+            Seja bem-vinda ao sistema de gerenciamento do banho & tosa Charlie's House
         </font>
     </b>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var squares = document.querySelectorAll('.square');
+
+        squares.forEach(function (square, index) {
+            setTimeout(function () {
+                square.style.opacity = '1';
+                square.style.transform = 'translateY(-20px)'; // Adicionar um deslocamento para cima
+            }, index * 600); // Ajustar o valor conforme necessário para controlar o tempo de exibição
+        });
+    });
+</script>

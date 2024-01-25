@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+2HBTli8A/SFK60h0VH0TpMKEENaZFyWS4JUeIt6tM=",
+  "Hash": "EsK0QoUHruxUTyoLilwASQBfhpbPjQfhMMz4i8mIidM=",
   "Source": "CharliesHouseWeb",
   "BasePath": "_content/CharliesHouseWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CharliesHouseWeb\\wwwroot",
       "Source": "CharliesHouseWeb",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\css\\site.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\favicon.ico",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\banhodog.png",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\alterasenha.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/banhodog.png",
+      "RelativePath": "img/alterasenha.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\banhodog.png"
+      "OriginalItemSpec": "wwwroot\\img\\alterasenha.png"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\cat.png",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\clientes.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/cat.png",
+      "RelativePath": "img/clientes.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,98 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cat.png"
+      "OriginalItemSpec": "wwwroot\\img\\clientes.png"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\dog2.png",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\logo.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
-      "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/dog2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\dog2.png"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\dogInicial.png",
-      "SourceId": "CharliesHouseWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
-      "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/dogInicial.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\dogInicial.png"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\doguinho.jpg",
-      "SourceId": "CharliesHouseWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
-      "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/doguinho.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\doguinho.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\fundo.png",
-      "SourceId": "CharliesHouseWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
-      "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/fundo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\fundo.png"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\imgfundo.png",
-      "SourceId": "CharliesHouseWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
-      "BasePath": "_content/CharliesHouseWeb",
-      "RelativePath": "img/imgfundo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\imgfundo.png"
-    },
-    {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo.png",
-      "SourceId": "CharliesHouseWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -187,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\logo_transparente.png",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\logo_transparente.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "img/logo_transparente.png",
       "AssetKind": "All",
@@ -204,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo_transparente.png"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\img\\user.png",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\user.png",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "img/user.png",
       "AssetKind": "All",
@@ -221,10 +136,27 @@
       "OriginalItemSpec": "wwwroot\\img\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\img\\usuarios.jpg",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
+      "BasePath": "_content/CharliesHouseWeb",
+      "RelativePath": "img/usuarios.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\usuarios.jpg"
+    },
+    {
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\js\\site.js",
+      "SourceId": "CharliesHouseWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -238,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -255,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -272,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -289,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -306,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -323,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -340,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -357,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -374,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -459,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -476,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -493,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -510,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -527,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -544,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -561,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -578,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -595,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -612,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -629,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -646,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -663,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -680,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -697,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -714,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -731,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -748,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -765,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -782,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Workspace\\CharliesHouse\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "CharliesHouseWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bianca\\Source\\Repos\\biancadcfarias\\CharliesHouseWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Workspace\\CharliesHouse\\wwwroot\\",
       "BasePath": "_content/CharliesHouseWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
