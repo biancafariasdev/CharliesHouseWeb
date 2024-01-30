@@ -1,6 +1,8 @@
 ﻿@model List<ClientModel>
 @{
     ViewData["Title"] = "Listagem de clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 <style>
@@ -10,67 +12,84 @@
         font-size: larger;
         background-color: #ddd9ce;
     }
+
+    .content-box {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd; 
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px; 
+        height: 620px;
+    }
+
+    .custom-button {
+        margin-top: 13%;
+        margin-bottom: -8%;
+        margin-left: 84%;
+        border-radius: 20px; 
+        padding: 10px 20px; 
+    }
 </style>
 
 <div id="bodyGeral">
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" style="margin-top:10%; margin-bottom: -8%;" role="button" asp-controller="Client" asp-action="NewClient">Adicionar novo cliente</a>
+        <a class="btn btn-primary custom-button" role="button" asp-controller="Client" asp-action="NewClient">Novo cliente</a>
     </div>
-<div class="text-center">    
-    <br />
 
-    @if (TempData["MensagemSucesso"] != null)
-    {
-        <div class="alert alert-success" role="alert">
-            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
-            @TempData["MensagemSucesso"]
-        </div>
-    }
+    <div class="text-center content-box">
+        <br />
 
-    @if (TempData["MensagemErro"] != null)
-    {
-        <div class="alert alert-danger" role="alert">
-            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
-            @TempData["MensagemErro"]
-        </div>
+        @if (TempData["MensagemSucesso"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemSucesso"]
+            </div>
+        }
 
-    }
+        @if (TempData["MensagemErro"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemErro"]
+            </div>
+        }
 
-
-    <br />
-    <h1 class="display-4">Clientes</h1>
+        <br />
+        <h1 class="display-4"><b>Clientes</b></h1>
         <table class="table table-striped" id="table-client">
-        <thead>
-            <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Email</th>
-                <th scope="col">Telefone</th>
-                <th scope="col"></th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (Model != null && Model.Any())
-            {
-                @foreach (ClientModel client in Model)
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
                 {
-                    <tr>
-                        <td>@client.ClientName</td>
-                        <td>@client.ClientEmail</td>
-                        <td>@client.ClientContact</td>
-                        <td>
-                            <div class="btn-group" role="group">
-                                <a role="button" class="btn btn-primary" asp-route-id="@client.Id" asp-controller="Client" asp-action="EditClient">Editar</a>
-                                <a role="button" class="btn btn-danger" asp-route-id="@client.Id" asp-controller="Client" asp-action="DeleteClientConfirm">Apagar</a>
-                            </div>
-                        </td>
-                    </tr>
+                    @foreach (ClientModel client in Model)
+                    {
+                        <tr>
+                            <td>@client.ClientName</td>
+                            <td>@client.ClientEmail</td>
+                            <td>@client.ClientContact</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a role="button" class="btn btn-primary" asp-route-id="@client.Id" asp-controller="Client" asp-action="EditClient">Editar</a>
+                                    <a role="button" class="btn btn-danger" asp-route-id="@client.Id" asp-controller="Client" asp-action="DeleteClientConfirm">Apagar</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
                 }
-            }else
-            {
-                <tr class="odd"><td valign="top" colspan="5">Nenhum cliente encontrado</td></tr>
-            }
+                else
+                {
+                    <tr class="odd"><td valign="top" colspan="5">Nenhum cliente encontrado</td></tr>
+                }
 
-
-    </table>
-</div>
+        </table>
+    </div>
 </div>

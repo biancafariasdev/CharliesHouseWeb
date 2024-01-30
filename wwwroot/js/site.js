@@ -13,6 +13,7 @@ function closeNav() {
 }
 
 $(document).ready(function () {
+    $('#table-client').DataTable();
     GetDataTable('#table-client');
     GetDataTable('#table-user');
 
