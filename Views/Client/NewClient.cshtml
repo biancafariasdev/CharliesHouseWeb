@@ -1,33 +1,166 @@
 ﻿@model ClientModel
 @{
-    ViewData["Title"] = "Criar Cliente";
+    ViewData["Title"] = "Cadastrar Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
-<div class="text-center">
+<style>
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: larger;
+        background-color: #ddd9ce;
+    }
 
-    <br />
-    <h1 class="display-4">Cadastrar Cliente</h1>
-   
+    .form-group label {
+        text-align: left;
+        display: block;
+    }
+
+    .content-box {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        height: 620px;
+    }
+
+    .custom-button {
+        margin-top: 13%;
+        margin-bottom: -8%;
+        margin-left: 84%;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    /* Estilo para a aba ativa */
+    .nav-tabs .active a {
+        background-color: #007bff; /* Cor de fundo azul */
+        color: white; /* Cor do texto branco */
+        border-radius: 10px; /* Borda arredondada */
+        padding: 5px 10px; /* Espaçamento interno */
+    }
+</style>
+
+<div id="bodyGeral">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary custom-button" role="button" asp-controller="Client" asp-action="NewClient">Novo cliente</a>
+    </div>
+
+    <div class="text-center content-box">
+        <br />
+
+        @if (TempData["MensagemSucesso"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemSucesso"]
+            </div>
+        }
+
+        @if (TempData["MensagemErro"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemErro"]
+            </div>
+        }
+
+        <br />
+        <h1 class="display-4"><b>Clientes</b></h1>
+        <form asp-controller="Client" asp-action="Novo" method="Post">
+            <div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#dadosTutor" aria-controls="dadosTutor" role="tab" data-toggle="tab">1. Dados do tutor</a></li>
+                    <li role="presentation"><a href="#dadosPet" aria-controls="dadosPet" role="tab" data-toggle="tab">2. Dados do pet</a></li>
+                </ul>
+                <br />
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="dadosTutor">
+                        <div class="form-group">
+                            <label for="Nome">Nome</label>
+                            <input type="text" asp-for="ClientName" class="form-control" id="ClientName" placeholder="Digite o nome do cliente">
+                            @Html.ValidationMessageFor(x => x.ClientName)
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="text" asp-for="ClientEmail" class="form-control" id="ClientEmail" placeholder="Digite o e-mail do cliente">
+                            @Html.ValidationMessageFor(x => x.ClientEmail)
+                        </div>
+                        <div class="form-group">
+                            <label for="Contato">Contato</label>
+                            <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
+                            @Html.ValidationMessageFor(x => x.ClientContact)
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="dadosPet">
+                        <div class="form-group">
+                            <label for="Nome">Nome do pet</label>
+                            <input type="text" asp-for="ClientName" class="form-control" id="ClientName" placeholder="Digite o nome do pet">
+                            @Html.ValidationMessageFor(x => x.ClientName)
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Raça</label>
+                            <input type="text" asp-for="ClientEmail" class="form-control" id="ClientEmail" placeholder="Digite a raça do pet">
+                            @Html.ValidationMessageFor(x => x.ClientEmail)
+                        </div>
+                        <div class="form-group">
+                            <label for="Contato">Tamanho</label>
+                            <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o tamanho">
+                            @Html.ValidationMessageFor(x => x.ClientContact)
+                        </div>
+                        <div class="form-group">
+                            <label for="Contato">Possui alguma alergia?</label>
+                            <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
+                            @Html.ValidationMessageFor(x => x.ClientContact)
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" id="prevBtn">Anterior</button>
+                <button type="button" class="btn btn-primary" id="nextBtn">Próximo</button>
+            </div>
+        </form>
+    </div>
 </div>
-<form asp-controller="Client" asp-action="Novo" method="Post">
-    <div class="form-group">
-        <label for="Nome">Nome</label>
-        <input type="text" asp-for="ClientName" class="form-control" id="ClientName" placeholder="Digite o nome do cliente">
-        @Html.ValidationMessageFor(x => x.ClientName)
-    </div>
-    <div class="form-group">
-        <label for="email">E-mail</label>
-        <input type="text" asp-for="ClientEmail" class="form-control" id="ClientEmail" placeholder="Digite o e-mail do cliente">
-        @Html.ValidationMessageFor(x => x.ClientEmail)
 
-    </div>
-    <div class="form-group">
-        <label for="Contato">Contato</label>
-        <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
-        @Html.ValidationMessageFor(x => x.ClientContact)
+<script>
+    function showTab(tabId) {
+        $('.nav-tabs a[href="#' + tabId + '"]').tab('show');
+    }
 
-    </div>
+    $("#nextBtn").on("click", function () {
+        showTab('dadosPet');
+        $(".nav-tabs li").removeClass("active"); 
+        $(".nav-tabs a[href='#dadosPet']").parent().addClass("active"); 
+        return false;
+    });
 
-    <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
-    <a class="btn btn-secondary btn-block" asp-controller="Client" asp-action="Index" role="button"> Voltar</a>
-</form>
+    $("#prevBtn").on("click", function () {
+        showTab('dadosTutor');
+        $(".nav-tabs li").removeClass("active"); 
+        $(".nav-tabs a[href='#dadosTutor']").parent().addClass("active"); 
+        return false;
+    });
+
+    $(document).ready(function () {
+        $(".nav-tabs a").on("click", function () {
+            $(".nav-tabs li").removeClass("active"); 
+            $(this).parent().addClass("active"); 
+        });
+
+        if (window.location.hash) {
+            var tabId = window.location.hash.replace('#', '');
+            showTab(tabId);
+            $(".nav-tabs li").removeClass("active"); 
+            $(".nav-tabs a[href='#" + tabId + "']").parent().addClass("active"); 
+        } else {
+            showTab('dadosTutor');
+        }
+    });
+</script>
+
+
+
