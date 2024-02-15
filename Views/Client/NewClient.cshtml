@@ -25,7 +25,7 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin: 20px;
-        height: 620px;
+        height: 720px;
     }
 
     .custom-button {
@@ -36,18 +36,17 @@
         padding: 10px 20px;
     }
 
-    /* Estilo para a aba ativa */
     .nav-tabs .active a {
-        background-color: #007bff; /* Cor de fundo azul */
-        color: white; /* Cor do texto branco */
-        border-radius: 10px; /* Borda arredondada */
-        padding: 5px 10px; /* Espaçamento interno */
+        background-color: #007bff; 
+        color: white; 
+        border-radius: 10px; 
+        padding: 5px 10px;
     }
 </style>
 
 <div id="bodyGeral">
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary custom-button" role="button" asp-controller="Client" asp-action="NewClient">Novo cliente</a>
+        <a class="btn btn-success custom-button" role="button" asp-controller="Client" asp-action="NewClient">Salvar</a>
     </div>
 
     <div class="text-center content-box">
@@ -95,38 +94,64 @@
                             <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
                             @Html.ValidationMessageFor(x => x.ClientContact)
                         </div>
+                        <button type="button" class="btn btn-primary" id="nextBtn">Próximo</button>
+
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="dadosPet">
                         <div class="form-group">
                             <label for="Nome">Nome do pet</label>
-                            <input type="text" asp-for="ClientName" class="form-control" id="ClientName" placeholder="Digite o nome do pet">
+                            <input type="text" asp-for="ClientName" class="form-control" id="PetName" placeholder="Digite o nome do pet">
                             @Html.ValidationMessageFor(x => x.ClientName)
                         </div>
                         <div class="form-group">
                             <label for="email">Raça</label>
-                            <input type="text" asp-for="ClientEmail" class="form-control" id="ClientEmail" placeholder="Digite a raça do pet">
+                            <input type="text" asp-for="ClientEmail" class="form-control" id="PetRaca" placeholder="Digite a raça do pet">
                             @Html.ValidationMessageFor(x => x.ClientEmail)
                         </div>
                         <div class="form-group">
                             <label for="Contato">Tamanho</label>
-                            <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o tamanho">
+                            <select asp-for="ClientContact" class="form-control" id="PetTamanho">
+                                <option value="">Selecione o tamanho</option>
+                                <option value="Pequeno">Pequeno</option>
+                                <option value="Médio">Médio</option>
+                                <option value="Grande">Grande</option>
+                            </select>
                             @Html.ValidationMessageFor(x => x.ClientContact)
                         </div>
                         <div class="form-group">
                             <label for="Contato">Possui alguma alergia?</label>
-                            <input type="text" asp-for="ClientContact" class="form-control" id="ClientContact" placeholder="Digite o contato do cliente">
+                            <div class="d-flex align-items-center">
+                                <label class="radio-inline mr-2">
+                                    <input type="radio" name="PetAlergia" value="Sim" asp-for="ClientContact" id="PetAlergiaSim"> Sim
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="PetAlergia" value="Não" asp-for="ClientContact" id="PetAlergiaNao"> Não
+                                </label>
+                            </div>
+                            <div id="caixaTexto" style="display: none;">
+                                <input type="text" asp-for="ClientContact" class="form-control" id="PetAlergiaOutra" placeholder="Especifique a alergia">
+                            </div>
                             @Html.ValidationMessageFor(x => x.ClientContact)
                         </div>
+                        <button type="button" class="btn btn-primary" id="prevBtn">Anterior</button>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" id="prevBtn">Anterior</button>
-                <button type="button" class="btn btn-primary" id="nextBtn">Próximo</button>
             </div>
         </form>
     </div>
 </div>
 
 <script>
+    var simRadio = document.getElementById('PetAlergiaSim');
+    var caixaTexto = document.getElementById('caixaTexto');
+
+    simRadio.addEventListener('change', function () {
+        if (simRadio.checked) {
+            caixaTexto.style.display = 'block';
+        } else {
+            caixaTexto.style.display = 'none';
+        }
+    });
     function showTab(tabId) {
         $('.nav-tabs a[href="#' + tabId + '"]').tab('show');
     }

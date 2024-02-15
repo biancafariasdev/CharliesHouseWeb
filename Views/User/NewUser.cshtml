@@ -4,46 +4,106 @@
     ViewData["Title"] = "Criar Usuário";
 }
 
-<div class="text-center">
+<style>
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: larger;
+        background-color: #ddd9ce;
+    }
 
-    <br />
-    <h1 class="display-4">Cadastrar Usuário</h1>
+    .form-group label {
+        text-align: left;
+        display: block;
+    }
 
+    .content-box {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        height: 720px;
+    }
+
+    .custom-button {
+        margin-top: 13%;
+        margin-bottom: -8%;
+        margin-left: 84%;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    .nav-tabs .active a {
+        background-color: #007bff;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+</style>
+
+<div id="bodyGeral">
+    <div class="d-grid gap-2 d-md-flex justify-content-start">
+        <a class="btn btn-secondary custom-button" role="button" asp-controller="Index" asp-action="User">Voltar</a>
+    </div>
+
+    <div class="text-center content-box">
+        <br />
+
+        @if (TempData["MensagemSucesso"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemSucesso"]
+            </div>
+        }
+
+        @if (TempData["MensagemErro"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+                @TempData["MensagemErro"]
+            </div>
+        }
+
+        <br />
+        <h1 class="display-4"><b>Usuários</b></h1>
+        <form asp-controller="User" asp-action="Novo" method="Post">
+            <div class="form-group">
+                <label for="Nome">Nome</label>
+                <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do usuário">
+                @Html.ValidationMessageFor(x => x.Nome)
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text" asp-for="Email" class="form-control" placeholder="Digite o e-mail do usuário">
+                @Html.ValidationMessageFor(x => x.Email)
+
+            </div>
+            <div class="form-group">
+                <label for="login">Login</label>
+                <input type="text" asp-for="Login" class="form-control" placeholder="Digite o login do usuário">
+                @Html.ValidationMessageFor(x => x.Email)
+
+            </div>
+            <div class="form-group">
+                <label for="Contato">Perfil</label>
+                <select asp-for="Perfil" class="form-control">
+                    <option value=""> Selecione</option>
+                    <option value="@PerfilEnum.Admin">Administrador</option>
+                    <option value="@PerfilEnum.Padrao"> Padrão</option>
+                </select>
+                @Html.ValidationMessageFor(x => x.Perfil)
+
+            </div>
+            <div class="form-group">
+                <label for="Contato">Senha</label>
+                <input type="password" asp-for="Senha" class="form-control" id="ClientContact" placeholder="Digite a senha do usuário">
+                @Html.ValidationMessageFor(x => x.Senha)
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
+        </form>
+    </div>
 </div>
-<form asp-controller="User" asp-action="Novo" method="Post">
-    <div class="form-group">
-        <label for="Nome">Nome</label>
-        <input type="text" asp-for="Nome" class="form-control"placeholder="Digite o nome do usuário">
-        @Html.ValidationMessageFor(x => x.Nome)
-    </div>
-    <div class="form-group">
-        <label for="email">E-mail</label>
-        <input type="text" asp-for="Email" class="form-control"  placeholder="Digite o e-mail do usuário">
-        @Html.ValidationMessageFor(x => x.Email)
-
-    </div>
-    <div class="form-group">
-        <label for="login">Login</label>
-        <input type="text" asp-for="Login" class="form-control"  placeholder="Digite o login do usuário">
-        @Html.ValidationMessageFor(x => x.Email)
-
-    </div>
-    <div class="form-group">
-        <label for="Contato">Perfil</label>
-        <select asp-for="Perfil" class="form-control">
-            <option value=""> Selecione</option>
-            <option value="@PerfilEnum.Admin">Administrador</option>
-            <option value="@PerfilEnum.Padrao"> Padrão</option>
-        </select>
-        @Html.ValidationMessageFor(x => x.Perfil)
-
-    </div>
-    <div class="form-group">
-        <label for="Contato">Senha</label>
-        <input type="password" asp-for="Senha" class="form-control" id="ClientContact" placeholder="Digite a senha do usuário">
-        @Html.ValidationMessageFor(x => x.Senha)
-    </div>
-
-    <button type="submit" class="btn btn-primary btn-block">Adicionar</button>
-    <a class="btn btn-secondary btn-block" asp-controller="Index" asp-action="User" role="button"> Voltar</a>
-</form>
